@@ -4,10 +4,10 @@
 // Variables
 @import 'variables';
 //@import 'my-variables';
-
+//Components
+@import "buttons";
+@import "inputs";
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
 
-@import "buttons";
-@import "inputs";
 
