@@ -12,16 +12,18 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 
 </head>
-<body>
-<nav class="navbar navbar-expand-lg bg-white flex-column">
+<body class="bg-body-secondary">
+<nav class="navbar navbar-expand-lg bg-white shadow-sm flex-column mt-0">
     <div class="container-fluid w-75">
-        <a class="navbar-brand text-success" href="#">PayBackSage</a>
+        <a class="navbar-brand text-success" href="#">
+            <h3>PayBackSage</h3>
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item ms-3">
+                <li class="nav-item ms-4">
                     <a class="nav-link active" aria-current="page" href="#">Всі магазини</a>
                 </li>
                 <li class="nav-item ms-3">
@@ -35,8 +37,8 @@
         </div>
     </div>
     <div class="container-fluid w-75 mt-3">
-        <form class="d-flex justify-content-start col-md-4" role="search">
-            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+        <form class="d-flex justify-content-start col-md-5" role="search">
+            <input class="form-control me-2 mb-2" type="search" placeholder="Search" aria-label="Search">
         </form>
     </div>
 </nav>

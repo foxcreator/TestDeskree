@@ -1,0 +1,12 @@
+.singup-input {
+    border: 1px solid #5cad35;
+}
+
+.singup-input:target {
+    border: 3px solid #5cad35;
+}
+
+input.form-control:focus {
+    border-color: #5cad35; /* Замените на желаемый цвет */
+    box-shadow: 0 0 0 0.2rem rgba(80, 152, 42, 0.25); /* Замените на желаемый цвет и эффект тени */
+}
