@@ -13,7 +13,7 @@
             </form>
         </div>
         <div class="col-md-5">
-            <img class="img-fluid" src="public/assets/img/logonosingin.png" alt="noimage =(">
+            <img class="img-fluid" src="https://c8.alamy.com/comp/TWFC9X/cashback-offer-money-refund-concept-TWFC9X.jpg" alt="noimage =(">
         </div>
     </div>
 </div>
